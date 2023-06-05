@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Color Extract From Image</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="plugins/filepond/plugins/image-preview/filepond-plugin-image-preview.min.css"
+      rel="stylesheet"
+    />
+    <link href="plugins/filepond/filepond.min.css" rel="stylesheet" />
+    <link
+      href="/plugins/filepond/plugins/image-edit/filepond-plugin-image-edit.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="/plugins/filepond/plugins/copy-path/filepond-plugin-copy-path.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--
+The classic file input element we'll enhance
+to a file pond, configured with attributes
+-->
+    <input
+      type="file"
+      class="filepond"
+      name="filepond"
+      multiple
+      data-allow-reorder="true"
+      data-max-file-size="3MB"
+      data-max-files="3"
+    />
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="plugins/color-thief/color-thief.min.js"></script>
+    <script src="plugins/filepond/plugins/image-edit/filepond-plugin-image-edit.min.js"></script>
+    <script src="plugins/filepond/plugins/image-exif/filepond-plugin-image-exif-orientation.min.js"></script>
+    <script src="plugins/filepond/plugins/image-preview/filepond-plugin-image-preview.min.js"></script>
+    <script src="plugins/filepond/plugins/image-validate/filepond-plugin-image-validate-size.min.js"></script>
+    <script src="plugins/filepond/plugins/file-validate/filepond-plugin-file-validate-type.min.js"></script>
+    <script src="plugins/filepond/plugins/size-validate/filepond-plugin-file-validate-size.min.js"></script>
+    <script src="plugins/filepond/plugins/image-crop/filepond-plugin-image-crop.min.js"></script>
+    <script src="plugins/filepond/plugins/image-resize/filepond-plugin-image-resize.min.js"></script>
+    <script src="plugins/filepond/plugins/image-transform/filepond-plugin-image-transform.min.js"></script>
+    <script src="plugins/filepond/filepond.min.js"></script>
+    <script src="/js/app.js"></script>
+  </body>
+</html>
